@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Marketplace</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/right.css">
+    <link rel="stylesheet" href="css/feed.css">
+    <link rel="stylesheet" href="css/sell.css">
+    <link href="https://fonts.googleapis.com/css?family=Abel|Raleway|Nunito+Sans" rel="stylesheet">
+</head>
+
+<body>
+	<div id="nav">
+        <a href="index.html" id="logo">
+            Marketplace
+        </a>
+        <div id="nav_left" class="nav_section">
+            <a href="index.html">Browse</a>          
+            <a>Favorites</a>
+        </div>
+        <div id="nav_right" class="nav_section">
+            <a href="sell.html">Sell</a>
+            |
+            <a href="login.html">Sign in</a>
+         </div>  
+    </div>
+
+
+	<div id="page_container">
+	  <div id="right">
+		<div class="specs">
+                <div class="specs_container">
+                    <h3 class="specs_row specs_title">Length</h3>
+                    <a class="specs_row specs_inner" href="">Long Term</a>
+                    <a class="specs_row specs_inner" href="">Short Term</a>
+                </div>
+                <div class="specs_container">
+                    <h3 class="specs_row specs_title">Bedrooms</h3>
+                    <a class="specs_row specs_inner" href="">Studio</a>
+                    <a class="specs_row specs_inner" href="">1</a>
+                    <a class="specs_row specs_inner" href="">2</a>
+                    <a class="specs_row specs_inner" href="">3</a>
+                    <a class="specs_row specs_inner" href="">4+</a>
+                </div>
+            </div>
+            <div id="feed">
+                <div id="feed_header">
+                    <h3 id="feed_number">8 Results</h3>
+                    <a id="feed_selector">Price</a>
+                </div>     
+                <div id="feed_container">
+                    <div class="feed_item">
+                        <img class="feed_image" src="images/apt_1.jpg" alt="apt_1" />
+                        <span class="feed_info">
+                            <h2>1630 Chicago Ave.</h2>
+                            <h3>$1350</h3>
+                            <img src="images/bed_bathroom.png" />
+                        </span>
+                    </div>
+
+    <!-- Copying the first feed item to fill the page -->
+
+                    <div class="feed_item">
+                        <img class="feed_image" src="images/apt_1.jpg" alt="apt_1" />
+                        <span class="feed_info">
+                            <h2>1630 Chicago Ave.</h2>
+                            <h3>$1350</h3>
+                            <img src="images/bed_bathroom.png" />
+                        </span>
+                    </div>
+                    <div class="feed_item">
+                        <img class="feed_image" src="images/apt_1.jpg" alt="apt_1" />
+                        <span class="feed_info">
+                            <h2>1630 Chicago Ave.</h2>
+                            <h3>$1350</h3>
+                            <img src="images/bed_bathroom.png" />
+                        </span>
+                    </div>
+                    <div class="feed_item">
+                        <img class="feed_image" src="images/apt_1.jpg" alt="apt_1" />
+                        <span class="feed_info">
+                            <h2>1630 Chicago Ave.</h2>
+                            <h3>$1350</h3>
+                            <img src="images/bed_bathroom.png" />
+                        </span>
+                    </div>
+                    <div class="feed_item">
+                        <img class="feed_image" src="images/apt_1.jpg" alt="apt_1" />
+                        <span class="feed_info">
+                            <h2>1630 Chicago Ave.</h2>
+                            <h3>$1350</h3>
+                            <img src="images/bed_bathroom.png" />
+                        </span>
+                    </div>
+
+    <!-- End of copying -->
+
+                </div>
+            </div>
+	  </div>
+	  <div id="left">
+            <div class="overlay" onClick="style.pointerEvents='none'"></div>
+	    	<iframe id="map" height="100%" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/search?q=apartments%20near%20Northwestern%20University&key=AIzaSyDeuVzi1jBnjitqnfdERqsm0ESIcVTRQj0&center=42.056,-87.665&zoom=15"></iframe>
+	  </div>                
+	</div>
+
+    <!-- Sell pop-up -->
+
+    <div id="gray_out">
+        <div id="sell_screen">
+            <h2>Create Post</h2>
+            <div id="left_col">
+                <div class="details">
+                    <div class="details_container">
+                        <h3 class="details_row details_title">Cost</h3>
+                        <a class="details_row details_inner" href="">$1350</a>
+                    </div>
+                    <div class="details_container">
+                        <h3 class="details_row details_title">Term</h3>
+                        <a class="details_row details_inner" href="">Fall</a>
+                        <a class="details_row details_inner" href="">Winter</a>
+                        <a class="details_row details_inner" href="">Spring</a>
+                        <a class="details_row details_inner" href="">other...</a>
+                    </div>
+                    <div class="details_container">
+                        <h3 class="details_row details_title">Bedrooms</h3>
+                        <a class="details_row details_inner" href="">Studio</a>
+                        <a class="details_row details_inner" href="">1</a>
+                        <a class="details_row details_inner" href="">2</a>
+                        <a class="details_row details_inner" href="">3</a>
+                        <a class="details_row details_inner" href="">4+</a>
+                    </div>
+                    <div class="details_container">
+                        <h3 class="details_row details_title">Bathrooms</h3>
+                        <a class="details_row details_inner" href="">Shared</a>
+                        <a class="details_row details_inner" href="">1</a>
+                        <a class="details_row details_inner" href="">2</a>
+                        <a class="details_row details_inner" href="">3+</a>
+                    </div>
+                    <div class="details_container">
+                        <h3 class="details_title details_title">Custom Category...</h3>
+                    </div>
+                </div>
+            </div>
+            <div id="right_col">
+                <img id="large_image" src="images/sell/image_large.png" />
+                <div id="small_images">
+                    <img src="images/sell/image_small.png" />
+                    <img src="images/sell/image_small.png" />
+                    <img src="images/sell/image_small.png" />
+                </div>
+                <h3>Additional Info</h3>
+                <div id="additional_info">enter post details...
+                </div>
+            </div>
+            <div id="submit">
+                <a id="cancel_submit" href="">Cancel</a>
+                <a href="seller_dashboard.html">Submit</a>
+            </div>
+        </div>
+    </div>
+
+</body>

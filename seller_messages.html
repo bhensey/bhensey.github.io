@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Marketplace</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/right.css">
+    <link rel="stylesheet" href="css/feed.css">
+    <link rel="stylesheet" href="css/seller_dashboard.css">
+    <link rel="stylesheet" href="css/seller_messages.css">
+    <link href="https://fonts.googleapis.com/css?family=Abel|Raleway|Nunito+Sans" rel="stylesheet">
+</head>
+
+<body>
+	<div id="nav">
+        <a href="index.html" id="logo">
+            Marketplace
+        </a>
+        <div id="nav_left" class="nav2_section">
+            <a href="index.html">Browse</a>          
+            <a>Favorites</a>
+        </div>
+        <div id="nav_right" class="nav2_section">
+            <a href="seller_dashboard.html">Seller Dashboard</a>
+            |
+            <a href="login.html">Sign in</a>
+         </div>  
+    </div>
+
+    <div id="nav2">
+        <div id="nav2_left" class="nav2_section">
+            <a id="details_tab" href="seller_dashboard.html">Details</a>          
+            <a id="messages_tab" href="seller_messages.html">Messages</a>
+        </div>
+        <div id="nav2_right" class="nav2_section">
+            <a href="sell.html">Create Post</a>
+         </div> 
+    </div>
+
+
+	<div id="page_container">
+	  <div id="right">
+            <div id="feed">
+                <div id="feed_header">
+                    <h3 id="feed_number">4 Listings</h3>
+                    <a id="feed_selector">Price</a>
+                </div>     
+                <div id="feed_container">
+                    <div class="feed_item">
+                        <img class="feed_image" src="images/apt_1.jpg" alt="apt_1" />
+                        <span class="feed_info">
+                            <h2>1630 Chicago Ave.</h2>
+                            <h3>$1350</h3>
+                            <img src="images/bed_bathroom.png" />
+                        </span>
+                    </div>
+
+    <!-- Copying the first feed item to fill the page -->
+
+                    <div class="feed_item">
+                        <img class="feed_image" src="images/apt_1.jpg" alt="apt_1" />
+                        <span class="feed_info">
+                            <h2>1630 Chicago Ave.</h2>
+                            <h3>$1350</h3>
+                            <img src="images/bed_bathroom.png" />
+                        </span>
+                    </div>
+                    <div class="feed_item">
+                        <img class="feed_image" src="images/apt_1.jpg" alt="apt_1" />
+                        <span class="feed_info">
+                            <h2>1630 Chicago Ave.</h2>
+                            <h3>$1350</h3>
+                            <img src="images/bed_bathroom.png" />
+                        </span>
+                    </div>
+                    <div class="feed_item">
+                        <img class="feed_image" src="images/apt_1.jpg" alt="apt_1" />
+                        <span class="feed_info">
+                            <h2>1630 Chicago Ave.</h2>
+                            <h3>$1350</h3>
+                            <img src="images/bed_bathroom.png" />
+                        </span>
+                    </div>
+
+    <!-- End of copying -->
+
+                </div>
+            </div>
+	  </div>
+	  <div id="left">
+            <div class="overlay" onClick="style.pointerEvents='none'"></div>
+	    	<iframe id="map" height="100%" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/search?q=apartments%20near%20Northwestern%20University&key=AIzaSyDeuVzi1jBnjitqnfdERqsm0ESIcVTRQj0&center=42.056,-87.665&zoom=15"></iframe>
+	  </div>            
+	</div>
+
+    <!-- Facebook login pop-up -->
+
+<div id="dashboard">
+        <div id="dashboard_container">
+            <div id="post_border">
+                <h2>1630 Chicago Ave.</h2>
+                <div id="post_details">
+                    <h4>46 Views</h4>
+                    <h4>3 Favorites</h4>
+                </div>
+            </div>
+            <div class="message">
+                <img src="images/spencer.jpg" />
+                <div class="message_text">
+                    <h3>Alex Daley</h3>
+                    <p>Hey, I’m interested in your sublet. Is there a time you’re free to show me around or something?</p>
+                </div>
+            </div>
+            <div class="message">
+                <img src="images/spencer.jpg" />
+                <div class="message_text">
+                    <h3>Alex Daley</h3>
+                    <p>Hey, I’m interested in your sublet. Is there a time you’re free to show me around or something?</p>
+                </div>
+            </div>
+            <div class="message">
+                <img src="images/spencer.jpg" />
+                <div class="message_text">
+                    <h3>Alex Daley</h3>
+                    <p>Hey, I’m interested in your sublet. Is there a time you’re free to show me around or something?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>

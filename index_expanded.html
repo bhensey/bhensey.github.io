@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Marketplace</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/right.css">
+    <link rel="stylesheet" href="css/feed.css">
+    <link rel="stylesheet" href="css/index_expanded.css">
+    <link href="https://fonts.googleapis.com/css?family=Abel|Raleway|Nunito+Sans" rel="stylesheet">
+</head>
+
+<body>
+	<div id="nav">
+        <a href="index.html" id="logo">
+            Marketplace
+        </a>
+        <div id="nav_left" class="nav_section">
+            <a href="index.html">Browse</a>          
+            <a>Favorites</a>
+        </div>
+        <div id="nav_right" class="nav_section">
+            <a href="sell.html">Sell</a>
+            |
+            <a href="login.html">Sign in</a>
+         </div>  
+    </div>
+
+
+	<div id="page_container">
+	  <div id="right">
+		<div class="specs">
+                <div class="specs_container">
+                    <h3 class="specs_row specs_title">Length</h3>
+                    <a class="specs_row specs_inner" href="">Long Term</a>
+                    <a class="specs_row specs_inner" href="">Short Term</a>
+                </div>
+                <div class="specs_container">
+                    <h3 class="specs_row specs_title">Bedrooms</h3>
+                    <a class="specs_row specs_inner" href="">Studio</a>
+                    <a class="specs_row specs_inner" href="">1</a>
+                    <a class="specs_row specs_inner" href="">2</a>
+                    <a class="specs_row specs_inner" href="">3</a>
+                    <a class="specs_row specs_inner" href="">4+</a>
+                </div>
+            </div>
+            <div id="feed">
+                <div id="feed_header">
+                    <h3 id="feed_number">8 Results</h3>
+                    <a id="feed_selector">Price</a>
+                </div>     
+                <div id="feed_container">
+
+    <!-- ALL THE CHANGES HAPPEN FROM HERE -->
+                    <a href="index.html">
+                        <div class="feed_item">
+                            <img id="exp_image" src="images/apt_1.jpg" />
+                            <div id="exp_collection">
+                                <img src="images/apt_1.jpg" />
+                                <img src="images/apt_1.jpg" />
+                                <img src="images/apt_1.jpg" />
+                                <img src="images/apt_1.jpg" />
+                            </div>
+                            <div id="exp_post_info">
+                                <span id="text_info">
+                                    <h2>1630 Chicago Ave.</h2>
+                                    <h3>$1350</h3>
+                                </span>
+                                <span id="image_info">
+                                    <img src="images/bed_bathroom.png" />
+                                </span>
+                            </div>
+                            <p id="exp_text">Fabulous one bedroom Apartment for rent located near Northwestern University. The apartment is very close to all amenities.The apartment comprises of double bedroom, fully fitted bathroom with a shower,w/c,large open plan living room with wooden flooring. Fully fitted and equipped kitchen. Rent includes all bills. Available Now</p>
+                            <div id="exp_footer">
+                                <img src="images/spencer.jpg" />
+                                <div id="exp_footer_text">
+                                    <h5> Sold by Spencer Kost </h5>
+                                    <h5>17 Mutual Friends</h5>
+                                    <h5>Student</h5>
+                                </div>
+                                <a id="message_seller" href="seller_messages.html">Message</a>
+                            </div>
+                        </div>
+                    </a>
+
+    <!-- TO HERE asdfasdfasdfasdfasdfasdfasdfasdf            -->
+
+                    <div class="feed_item">
+                        <img class="feed_image" src="images/apt_1.jpg" alt="apt_1" />
+                        <span class="feed_info">
+                            <h2>1630 Chicago Ave.</h2>
+                            <h3>$1350</h3>
+                            <p>1 Bed 1 Bath</p>
+                        </span>
+                    </div>
+                    <div class="feed_item">
+                        <img class="feed_image" src="images/apt_1.jpg" alt="apt_1" />
+                        <span class="feed_info">
+                            <h2>1630 Chicago Ave.</h2>
+                            <h3>$1350</h3>
+                            <p>1 Bed 1 Bath</p>
+                        </span>
+                    </div>
+                    <div class="feed_item">
+                        <img class="feed_image" src="images/apt_1.jpg" alt="apt_1" />
+                        <span class="feed_info">
+                            <h2>1630 Chicago Ave.</h2>
+                            <h3>$1350</h3>
+                            <p>1 Bed 1 Bath</p>
+                        </span>
+                    </div>
+                    <div class="feed_item">
+                        <img class="feed_image" src="images/apt_1.jpg" alt="apt_1" />
+                        <span class="feed_info">
+                            <h2>1630 Chicago Ave.</h2>
+                            <h3>$1350</h3>
+                            <p>1 Bed 1 Bath</p>
+                        </span>
+                    </div>
+
+    <!-- End of copying -->
+
+                </div>
+            </div>
+	  </div>
+	  <div id="left">
+            <div class="overlay" onClick="style.pointerEvents='none'"></div>
+	    	<iframe id="map" height="100%" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/search?q=apartments%20near%20Northwestern%20University&key=AIzaSyDeuVzi1jBnjitqnfdERqsm0ESIcVTRQj0&center=42.056,-87.665&zoom=15"></iframe>
+	  </div>                
+	</div>
+</body>

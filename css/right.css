@@ -1,0 +1,45 @@
+.specs {
+	background-color: white;
+	border-bottom: 1px solid #5F5F5F;
+	padding: 10px 30px 30px 10px;
+}
+
+.specs_container {
+	display: table;
+	width: 100%;
+	padding: 10px 0;
+	border-collapse: separate;
+	border-spacing: 10px 0;
+}
+
+.specs_row {
+	display: table-cell;
+}
+
+.specs_title {
+	padding: 0 20px;
+	width: 100px;
+}
+
+.specs_inner {
+	padding: 10px 10px;
+	border: 1px solid #CCE6FF;
+	border-radius: 4px;
+	background-color: #F7FDFF;
+}
+
+.specs h3 {
+	font-size: 17px;
+}
+
+.specs a {
+	transition: background-color 0s;
+	font-size: 15px;
+	text-decoration: none;
+	color: black;
+}
+
+.specs a:hover {
+	background-color: #ACCCFE;
+	color: white;
+}

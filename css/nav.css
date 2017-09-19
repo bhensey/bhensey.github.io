@@ -1,0 +1,47 @@
+#nav {
+	position: fixed;
+	min-width: 1000px;
+	height: 60px;
+	width: 100%;
+	z-index: 2;
+	background-color: #FAF6F4;
+	padding: 0;
+	overflow: hidden;
+	box-shadow: 2px 2px 5px lightgrey;
+}
+
+#logo {
+	display: inline-block;
+	background-color: #84A1E2;
+	width: 170px;
+	height: 30px;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	padding: 15px 0;
+	float: left;
+	text-decoration: none;
+}
+
+.nav_section {
+	display: inline-block;
+	font-size: 16px;
+}
+
+#nav_left {
+	float: left;
+	margin: 20px 0 0 5%;
+}
+
+#nav_right {
+	float: right;
+	margin: 20px 8% 0 0;
+}
+
+
+.nav_section a {
+	text-decoration: none;
+	color: black;
+	padding: 30px;
+}
+

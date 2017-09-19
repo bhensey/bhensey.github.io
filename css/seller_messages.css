@@ -1,0 +1,44 @@
+
+
+.message {
+	display: inline-block;
+	padding: 8px;
+	height: 100px;
+	width: 600px;
+	vertical-align: center;
+	text-align: left;
+	border-bottom: 1px solid grey;
+}
+
+.message img {
+	display: inline-block;
+	width: 70px;
+	border-radius: 100%;
+	float: left;
+	padding: 20px;
+}
+
+.message_text {
+	display: inline-block;
+	width: 400px;
+	margin-left: 20px;
+
+}
+
+.message_text h3 {
+	margin: 12px 0 0;
+	font-size: 16px;
+}
+
+.message_text p {
+	margin: 7px 0 0;
+	font-size: 14px;
+}
+
+#details_tab {
+	border-bottom: none;
+}
+
+#messages_tab {
+	border-bottom: 3px solid black;
+}
